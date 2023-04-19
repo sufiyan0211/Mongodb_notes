@@ -120,4 +120,7 @@
         <pre>
         db.myCollection.updateMany( {language: 'C#'}, { $set:{name: "Rakesh"} }, {upsert: true} );
         </pre>
-
+11. delete row/rows
+    <pre>
+    db.myCollection.remove({field: value})
+    </pre>
